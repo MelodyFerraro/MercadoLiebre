@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingresá</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-busqueda-cuotas">
+        <div class="logo-busqueda">
+          <img
+            class="logo"
+            src="../images/logo-mercado-liebre.svg"
+            alt="Logo de Mercado Liebre"
+          />
+          <div class="busqueda">
+            <input
+              class="texto-busqueda"
+              type="text"
+              name="textobusqueda"
+              id="textobusqueda"
+              placeholder="Buscar productos, marcas..."
+            />
+            <i class="fas fa-search icono-lupa"> </i>
+          </div>
+        </div>
+        <div class="cuotas">
+          <i class="fas fa-hand-holding-usd"> </i>
+          <p class="texto-cuotas">Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+      </div>
+
+      <div class="contnavbar">
+        <ul class="navbar1">
+          <li class="lista1"><a class="link" href="ofertas">Ofertas </a></li>
+          <li class="lista1">
+            <a class="link" href="tiendasoficiales">Tiendas Oficiales</a>
+          </li>
+          <li class="lista1"><a class="link" href="vender">Vender </a></li>
+          <li class="lista1"><a class="link" href="ayuda">Ayuda </a></li>
+        </ul>
+        <div></div>
+        <ul class="navbar2">
+          <li class="lista2">
+            <a class="link" href="register">
+              Creá tu cuenta <i class="far fa-id-card"></i>
+            </a>
+          </li>
+          <li class="lista2">
+            <a class="link" href="login">
+              Ingresá <i class="fas fa-sign-in-alt"></i>
+            </a>
+          </li>
+          <li class="lista2">
+            <a class="link" href="miscompras">
+              Mis compras <i class="fas fa-shopping-basket"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="burger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main class="formularios">
+      <h1 class="titulo-form">Login de Usuario</h1>
+      <form action="/login" method="POST">
+    </div>
+    <div class="campo">
+      <input
+        class="limpiar-form-navegador"
+        type="text"
+        name="nombreusuario"
+        id="nombreusuario"
+        pattern="[a-zA-Z0-9_]{4,15}$"
+        title="Ingresa un Nombre de Usuario correcto"
+        placeholder="Nombre de Usuario"
+        required
+      />
+    </div>
+        <div class="campo">
+            <input
+              class="limpiar-form-navegador"
+              type="password"
+              name="password"
+              id="password"
+              pattern="[.]{8,20}$"
+              title="Ingresa una contraseña correcta"
+              placeholder="Contraseña"
+              required
+            />
+        </div>
+        <br>
+        <div>
+            <a class="limpiar-form-navegador botones" href="/">Enviar</a>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <section>
+        <br />
+        <div class="iconfoot"><i class="fas fa-credit-card"></i></div>
+        <h2>Pagá con tarjeta o en efectivo</h2>
+        <p>
+          Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+          efectivo en puntos de pago. ¡Y siempre es seguro!
+        </p>
+      </section>
+      <section>
+        <div class="iconfoot"><i class="fas fa-gift"></i></div>
+        <h2>Envío gratis desde $ 2.500</h2>
+        <p>
+          Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+          miles de productos. Es un beneficio de Mercado Puntos.
+        </p>
+      </section>
+      <section>
+        <div class="iconfoot"><i class="fas fa-user-shield"></i></div>
+        <h2>Seguridad, de principio a fin</h2>
+        <p>
+          ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+          hacer, porque estás siempre protegid@.
+        </p>
+      </section>
+      <br /><br />
+      <section>
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -22,12 +22,12 @@ app.get('/tiendasoficiales', (req, res)=>{
 app.get('/vender', (req, res)=>{
     res.sendFile(path.join(__dirname,'./views/vender.html'));
 });
-app.get('/creatucuenta', (req, res)=>{
-    res.sendFile(path.join(__dirname,'./views/creatucuenta.html'));
+app.get('/register', (req, res)=>{
+    res.sendFile(path.join(__dirname,'./views/register.html'));
 });
 app.get('/miscompras', (req, res)=>{
     res.sendFile(path.join(__dirname,'./views/miscompras.html'));
 });
-app.get('/ingresa', (req, res)=>{
-    res.sendFile(path.join(__dirname,'./views/ingresa.html'));
+app.get('/login', (req, res)=>{
+    res.sendFile(path.join(__dirname,'./views/login.html'));
 });
